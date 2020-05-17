@@ -7,18 +7,22 @@ import { EmplistComponent } from './emplist/emplist.component';
 import { EmpdetailComponent } from './empdetail/empdetail.component';
 import { EmpserviceService } from './empservice.service';
 import { TesterComponent } from './tester/tester.component';
+import {CommonModule} from '@angular/common';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     EmplistComponent,
     EmpdetailComponent,
-    TesterComponent
+    TesterComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    CommonModule
   ],
   providers: [EmpserviceService],
   bootstrap: [AppComponent]
