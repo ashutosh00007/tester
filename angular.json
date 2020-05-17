@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "codevlution"
+    }
+  },
+  "defaultProject": "codevlution",
+  "cli": {
+    "analytics": "10997557-9059-47c5-b936-e2f8782f8929"
+  }
 }
